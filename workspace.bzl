@@ -71,6 +71,7 @@ def download_gcloud_deps():
             "ln -s google-cloud-sdk/bin/gcloud gcloud",
             "ln -s google-cloud-sdk/bin/gsutil gsutil",
             "ln -s google-cloud-sdk/bin/bq bq",
+            "google-cloud-sdk/bin/gcloud components install gke-gcloud-auth-plugin",
         ],
         sha256 = {
             "darwin": "26db63460c7f71c7154c753fcb01030d1a509a3fade20f7ab0241f74e7986ec3",
